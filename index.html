@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="ru" data-validate="html">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Cook-Tour">
+  <title>Cook-Tour</title>
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+  <header class="header" data-test="header">
+    <a class="header__logo" href="#!">
+      <img class="header__logo-img" src="img/logo.svg" width="114" height="30" alt="Логотип Cook-Tour">
+    </a>
+    <nav class="header__nav">
+      <ul class="header__list">
+        <li class="header__item">
+          <a href="#!" class="header__link">Гастротуры</a>
+        </li>
+        <li class="header__item">
+          <a href="#!" class="header__link">Бронирование</a>
+        </li>
+        <li class="header__item">
+          <a href="#!" class="header__link">О нас</a>
+        </li>
+        <li class="header__item">
+          <a href="#!" class="header__link">Отзывы</a>
+        </li>
+        <li class="header__item">
+          <a href="#!" class="header__link">Фотографии</a>
+        </li>
+        <li class="header__item">
+          <a href="#!" class="header__link">Контакты</a>
+        </li>
+      </ul>
+    </nav>
+    <a class="header__phone" href="tel:+88007253232">8 800 725-32-32</a>
+  </header>
+  <main>
+    <section class="promo" data-test="hero">
+      <h1 class="visually-hidden">Промо Cook-Tour</h1>
+      <p class="promo__title">Исследуйте вкусы Кавказа</p>
+      <p class="promo__text">
+        В сопровождении опытных шеф-поваров вы откроете для себя богатство кавказской кухни
+        и научитесь готовить традиционные блюда.
+      </p>
+      <button class="promo__button" href="#!">Подробнее о курсе</button>
+    </section>
+    <section class="events" data-test="events" >
+      <h2 class="events__title">Предстоящие события</h2>
+      <ul class="events__list">
+        <li class="events__item events__item--1">
+          <p class="events__destination">Кавказ</p>
+          <p class="events__time">4 дня</p>
+          <h3 class="events__heading">Гастрономическое путешествие вокруг Кавказа</h3>
+          <p class="events__level-title">Сложность:</span></p>
+          <p class="events__level-rating events__level-rating--3"><span class="visually-hidden">три из пяти</span></p>
+        </li>
+        <li class="events__item events__item--2 events__item--mobile-none">
+          <p class="events__destination">Алтай</p>
+          <p class="events__time">13 дней</p>
+          <h3 class="events__heading">Путь к мастерству в приготовлении блюд Алтая</h3>
+          <p class="events__level-title">Сложность:</span></p>
+          <p class="events__level-rating events__level-rating--2"><span class="visually-hidden">два из пяти</span></p>
+        </li>
+        <li class="events__item events__item--3 events__item--mobile-none">
+          <p class="events__destination">Адыгея</p>
+          <p class="events__time">6 дней</p>
+          <h3 class="events__heading">От горных трав до морских деликатесов</h3>
+          <p class="events__level-title">Сложность:</span></p>
+          <p class="events__level-rating events__level-rating--4"><span class="visually-hidden">четыре из пяти</span></p>
+        </li>
+      </ul>
+      <a class="events__link" href="#!">Показать все курсы</a>
+    </section>
+  </main>
+</body>
+</html>
